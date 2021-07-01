@@ -7,7 +7,8 @@
 **2. Kéo code**
   - git stash
   - git pull origin hunglt
-  - git stash apply _(Tự resolve conflict, nếu có.)_
+  - git stash apply 
+  - _(Nếu có conflict, tự resolve conflict. Sau đó git add .)_
 
 **3. Đẩy code**
   - Kéo code
