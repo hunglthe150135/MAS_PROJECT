@@ -2,13 +2,14 @@
   - git clone https://github.com/hunglthe150135/MAS_PROJECT.git
   - cd .\MAS_PROJECT\
   - git checkout -b _ngohieu_
+  - git push --set-upstream origin _ngohieu_
   - _git branch_: kiểm tra mình đang ở branch nào trước khi code.
 
 **2. Kéo code**
   - git stash
   - git pull origin hunglt
   - git stash apply 
-  - _(Nếu có conflict, tự resolve conflict. Sau đó git add .)_
+  - _Nếu có conflict, tự resolve conflict. Sau đó git add ._
 
 **3. Đẩy code**
   - Kéo code
