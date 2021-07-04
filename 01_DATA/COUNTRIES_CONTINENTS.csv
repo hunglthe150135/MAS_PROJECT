@@ -1,0 +1,219 @@
+CODE,NAME,PARENT_CODE
+1,"Total, all countries or areas",
+2,Africa,1
+15,Northern Africa,2
+202,Sub-Saharan Africa,2
+14,Eastern Africa,2
+17,Middle Africa,2
+18,Southern Africa,2
+11,Western Africa,2
+140,Central African Republic,2
+710,South Africa,2
+19,Americas,1
+21,Northern America,19
+419,Latin America & the Caribbean,19
+13,Central America,19
+5,South America,19
+16,American Samoa,19
+840,United States of America,21
+150,Europe,1
+151,Eastern Europe,150
+154,Northern Europe,150
+39,Southern Europe,150
+155,Western Europe,150
+142,Asia,1
+143,Central Asia,142
+30,Eastern Asia,142
+34,Southern Asia,142
+145,Western Asia,142
+35,South-eastern Asia,34
+9,Oceania,1
+53,Australia and New Zealand,9
+57,Micronesia,9
+61,Polynesia,9
+704,Viet Nam,35
+96,Brunei,35
+116,Cambodia,35
+626,Timor-Leste,35
+360,Indonesia,35
+418,Lao People's Dem. Rep.,35
+458,Malaysia,35
+104,Myanmar,35
+608,Philippines,35
+702,Singapore,35
+764,Thailand,35
+398,Kazakhstan,143
+417,Kyrgyzstan,143
+795,Turkmenistan,143
+860,Uzubekistan,143
+156,China,30
+344,"China, Hong Kong SAR",30
+446,"China, Macao SAR",30
+392,Japan,30
+496,Mongolia,30
+410,Republic of Korea,30
+408,Dem. People's Rep. Korea,30
+4,Afghanistan,34
+356,India,34
+50,Bangladesh,34
+64,Bhutan,34
+462,Maldives,34
+524,Nepal,34
+586,Pakistan,34
+144,Sri Lanka,34
+792,Turkey,145
+51,Armenia,145
+31,Azerbaijan,145
+48,Bahrain,145
+196,Cyprus,145
+268,Georgia,145
+364,Iran,145
+368,Iraq,145
+376,Israel,145
+400,Jordan,145
+414,Kuwait,145
+422,Lebanon,145
+512,Oman,145
+275,State of Palestine,145
+634,Qatar,145
+682,Saudi Arabia,145
+760,Syrian Arab Republic,145
+784,United Arab Emirates,145
+887,Yemen,145
+32,Argentina,5
+862,Venezuela (Boliv. Rep. of),5
+76,Brazil,5
+68,Bolivia (Plurin. State of),5
+152,Chile,5
+170,Colombia,5
+218,Ecuador,5
+328,Guyana,5
+604,Peru,5
+238,Falkland Islands (Malvinas),5
+600,Paraguay,5
+740,Suriname,5
+858,Uruguay,5
+124,Canada,21
+484,Mexico,21
+84,Belize,13
+320,Guatemala,13
+222,El Salvador,13
+340,Honduras,13
+558,Nicaragua,13
+188,Costa Rica,13
+591,Panama,13
+100,Bulgaria,151
+616,Poland,151
+203,Czechia,151
+703,Slovakia,151
+112,Belarus,151
+804,Ukraine,151
+642,Romania,151
+498,Republic of Moldova,151
+208,Denmark,154
+234,Faroe Islands,154
+304,Greenland,154
+233,Estonia,154
+246,Finland,154
+352,Iceland,154
+372,Ireland,154
+428,Latvia,154
+440,Lithuania,154
+578,Norway,154
+752,Sweden,154
+826,United Kingdom,154
+620,Portugal,39
+724,Spain,39
+292,Gibraltar,39
+20,Andorra,39
+380,Italy,39
+674,San Marino,39
+470,Malta,39
+705,Slovenia,39
+191,Croatia,39
+499,Montenegro,39
+688,Serbia,39
+300,Greece,39
+807,North Macedonia,39
+8,Albania,39
+40,Austria,155
+56,Belgium,155
+250,France,155
+276,Germany,155
+438,Liechtenstein,155
+442,Luxembourg,155
+492,Monaco,155
+528,Netherlands,155
+756,Switzerland,155
+818,Egypt,15
+12,Algeria,15
+504,Morocco,15
+434,Libya,15
+729,Sudan,15
+788,Tunisia,15
+24,Angola,17
+120,Cameroon,17
+140,Central African Republic,17
+178,Congo,17
+180,Dem. Rep. of the Congo,17
+226,Equatorial Guinea,17
+266,Gabon,17
+72,Botswana,18
+748,Eswatini,18
+426,Lesotho,18
+516,Namibia,18
+854,Burkina Faso,11
+132,Cabo Verde,11
+384,Cªte dÍIvoire,11
+270,Gambia,11
+288,Ghana,11
+324,Guinea,11
+624,Guinea-Bissau,11
+430,Liberia,11
+466,Mali,11
+562,Niger,11
+566,Nigeria,11
+686,Senegal,11
+694,Sierra Leone,11
+768,Togo,11
+108,Burundi,14
+262,Djibouti,14
+450,Madagascar,14
+480,Mauritius,14
+728,South Sudan,14
+646,Rwanda,14
+706,Somalia,14
+800,Uganda,14
+716,Zimbabwe,14
+174,Comoros,14
+232,Eritrea,14
+404,Kenya,14
+454,Malawi,14
+508,Mozambique,14
+690,Seychelles,14
+834,United Rep. of Tanzania,14
+894,Zambia,14
+72,Botswana,15
+748,Eswatini,15
+426,Lesotho,15
+516,Namibia,15
+710,South Africa,15
+36,Australia,53
+554,New Zealand,53
+598,Papua New Guinea,53
+583,Micronesia (Fed. States of),57
+316,Guam,57
+296,Kiribati,57
+584,Marshall Islands,57
+520,Nauru,57
+580,Northern Mariana Islands,57
+585,Palau,57
+776,Tonga,61
+882,Samoa,61
+16,American Samoa,61
+184,Cook Islands,61
+258,French Polynesia,61
+570,Niue,61
+772,Tokelau,61
+798,Tuvalu,61
+876,Wallis and Futuna Islands,61
