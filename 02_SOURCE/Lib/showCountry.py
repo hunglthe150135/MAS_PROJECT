@@ -20,23 +20,28 @@ def showCountry(Continent, data):
     while len(temp_subcon)>0:
         temp=[]
         for name in temp_subcon:
-            # print(name)
-            for row in data.iterrows():
 
+            for row in data.iterrows():
                 if row[1]['NAME'] == name:
+
                     for row1 in data.iterrows():
                          if row1[1]['PARENT_CODE'] == row[1]['CODE']:
+                            print(row1[1]['NAME'])
                             if checkSub(subcontinent, row1[1]['NAME']):
                                 temp.append(row1[1]['NAME'])
                             else:
                                 countries.append(row1[1]['NAME'])
 
-
         temp_subcon=temp.copy()
+
+
     if Continent == "Total, all countries or areas":
         return countries[6:]
     else:
-        return countries
+        if len(countries) > 0:
+            return countries
+        else:
+            return subcontinent
 
 def checkSub(lst, coun):
     for name in lst:
