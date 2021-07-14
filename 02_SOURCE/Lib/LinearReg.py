@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df = pd.read_csv(r"C:\Users\phamv\Downloads\MAS_PROJECT\01_DATA\D11_Science_and_Technology\03_Patents.csv")
 def chooseData(fea, limit, x_name, y_name):
@@ -35,12 +36,17 @@ x_data = np.array(data[0]).reshape(-1,1)
 y_data = np.array(data[1])
 model = LinearRegression()
 model.fit(x_data, y_data)
-r_sq = model.score(x_data, y_data)
-print('Coefficient of determination:', r_sq)
 print("Nhap dau vao x:")
 x_input = float(input())
 x_arr = np.array(x_input).reshape(-1, 1)
 y_pred = model.predict(x_arr)
 print("Du doan: "+ str(round(y_pred[0], 0)))
 
+#Visualize ket qua
+plt.scatter(x_data, y_data, color = "blue")
+plt.plot(x_data, model.predict(x_data), color = "yellow")
+plt.title("Visualization")
+plt.xlabel(x)
+plt.ylabel(y)
+plt.show()
 
