@@ -44,8 +44,3 @@ def checkSub(lst, coun):
             return True
 
 
-
-
-
-continent = input()
-print(showCountry(continent, data))
