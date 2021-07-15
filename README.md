@@ -17,3 +17,9 @@
   - git commit -m "_lời nhắn nào đó_"
   - git push
   - **Lập tức** nhắn tin cho mình là đã push, mình sẽ kéo branch của mọi người về. Không cần tạo pull request. Phải đảm bảo không có conflict trước khi push.
+
+**4. Merge code**
+  - Đẩy code
+  - git checkout hunglt
+  - git pull origin _tên_nhánh_
+  - Đẩy code
