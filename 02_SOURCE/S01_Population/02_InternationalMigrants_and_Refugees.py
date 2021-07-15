@@ -18,6 +18,9 @@ def question_a():
     graph_value = result_final_1['VALUE']
 
     pyplot.plot(graph_name,graph_value,color='green')
+    pyplot.xticks(rotation = 45)
+    pyplot.legend(['Both sexs'])
+    pyplot.ylim(0,40)
 
     pyplot.show()
     pyplot.savefig('F:\\GitHub\\MAS_PROJECT\\03_RESULT\\R01_Population\\02_InternationalMigrants_and_Refugees\\question_a.png')
@@ -37,6 +40,7 @@ def question_b():
     pyplot.plot(graph_name,graph_value)
     pyplot.xlabel("Name")
     pyplot.ylabel("Value")
+    pyplot.xticks(rotation=45)
     pyplot.show()
 
     pyplot.savefig('F:\\GitHub\\MAS_PROJECT\\03_RESULT\\R01_Population\\02_InternationalMigrants_and_Refugees\\question_b.png')
@@ -62,12 +66,11 @@ def question_c():
     pyplot.plot(year,female_value , color = 'red')
     pyplot.xlabel("Year")
     pyplot.ylabel("Value")
-
+    pyplot.ylim(0,0.2)
     pyplot.savefig('F:\\GitHub\\MAS_PROJECT\\03_RESULT\\R01_Population\\02_InternationalMigrants_and_Refugees\\question_c.png')
 
     pyplot.show()
 
 question_a()
-question_b()
-question_c()
+
 
